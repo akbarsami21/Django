@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+    {% load static %}
+  <head>
+    <meta charset="UTF-8">
+    <title> teacher </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/form.css'%}">
+    
+
+</head>
+<body>
+  {% comment %} <form action='' method='GET'> {% endcomment %}
+    <form action='' method='POST'> {% csrf_token %} 
+    {{form.as_p}}
+     
+    <input type="Submit" value="Submit">
+  </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(1, 11, 11);
+}
+
+h1{
+    font-size: 50px;
+    color: red
+}
+img{
+    height: 500px;
+    width: 400px;
+}

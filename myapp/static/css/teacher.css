@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    /* Add a border to the table */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Add a border to table cells */
+    padding: 8px;
+    /* Add padding to cells for better appearance */
+    text-align: left;
+    /* Align text to the left */
+}
